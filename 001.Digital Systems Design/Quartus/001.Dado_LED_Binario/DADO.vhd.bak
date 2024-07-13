@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity DADO is
+port(
+	A : in std_logic; --Bit mais significativo
+	B : in std_logic;
+	C : in std_logic; -- Bit menos significativo
+	L1 : out std_logic;
+	L2 : out std_logic;
+	L3 : out std_logic;
+	L4 : out std_logic;
+	L5 : out std_logic;
+	L6 : out std_logic;
+	L7 : out std_logic
+);
+end DADO;
+

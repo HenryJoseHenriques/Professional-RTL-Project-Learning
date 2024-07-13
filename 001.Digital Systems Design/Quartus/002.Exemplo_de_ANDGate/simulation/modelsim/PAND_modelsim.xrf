@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Henry/OneDrive/Área de Trabalho/Revisão eletrônica digital/001.Projeto de Sistemas Digitais/Quartus/002.Exemplo_de_ANDGate/PAND.vhd
+source_file = 1, C:/Users/Henry/OneDrive/Área de Trabalho/Revisão eletrônica digital/001.Projeto de Sistemas Digitais/Quartus/002.Exemplo_de_ANDGate/PANDBlock.bdf
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Henry/OneDrive/Área de Trabalho/Revisão eletrônica digital/001.Projeto de Sistemas Digitais/Quartus/002.Exemplo_de_ANDGate/db/PAND.cbx.xml
+design_name = PAND
+instance = comp, \o~output\, o~output, PAND, 1
+instance = comp, \b~input\, b~input, PAND, 1
+instance = comp, \a~input\, a~input, PAND, 1
+instance = comp, \o~0\, o~0, PAND, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, PAND, 1

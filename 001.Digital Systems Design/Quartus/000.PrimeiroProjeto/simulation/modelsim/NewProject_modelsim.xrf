@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Henry/OneDrive/Área de Trabalho/Revisão eletrônica digital/001.Projeto de Sistemas Digitais/Quartus/PrimeiroProjeto/NewProject.bdf
+source_file = 1, C:/Users/Henry/OneDrive/Área de Trabalho/Revisão eletrônica digital/001.Projeto de Sistemas Digitais/Quartus/PrimeiroProjeto/db/NewProject.cbx.xml
+design_name = NewProject
+instance = comp, \S~output\, S~output, NewProject, 1
+instance = comp, \B~input\, B~input, NewProject, 1
+instance = comp, \A~input\, A~input, NewProject, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, NewProject, 1
