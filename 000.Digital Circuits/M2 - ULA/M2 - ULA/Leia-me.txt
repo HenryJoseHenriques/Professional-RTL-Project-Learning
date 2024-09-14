@@ -1,0 +1,8 @@
+Bom dia, boa tarde e boa noite professor Valim, tudo tranquilo?
+
+Criei esse arquivo para o deixar ciente de que existe a possibilidade de quando vc abrir meu circuito dá um aviso de 
+incopatibilidade de versões do Logisim e isso fazer todas portas lógicas(AND e OR) do meu circuito estarem com 5 entrandas e com tri-state.
+Infelizmente, isso gera um problema de funcionamento em alguns circuitos(meio-somador, meio-subtrator, somador completo, subtrator completo).
+Para resolver isso, é simples, é só colocar 2 entrandas em todas as portas em que o problema das 5 entradas gere um problema de mal funcionamento no circuito.
+Deixei uma imagem simulando o problema para vc entender melhor.
+Descobri enquanto terminava o circuio na monitoria.
