@@ -14,27 +14,23 @@ ARCHITECTURE arch_increm OF increm IS
 
     SIGNAL carry : STD_LOGIC_VECTOR (3 DOWNTO 0);
 BEGIN
-    -- Processo para somar os bits de A e o carry-in
-    PROCESS (i_A, i_carryIn)
-    BEGIN
-        -- Soma bit 0
-        o_S(0) <= i_A(0) XOR i_carryIn;
-        carry(0) <= (i_A(0) AND i_carryIn);
-        
-        -- Soma bit 1
-        o_S(1) <= i_A(1) XOR carry(0);
-        carry(1) <= (i_A(1) AND carry(0));
-        
-        -- Soma bit 2
-        o_S(2) <= i_A(2) XOR carry(1);
-        carry(2) <= (i_A(2) AND carry(1));
-        
-        -- Soma bit 3
-        o_S(3) <= i_A(3) XOR carry(2);
-        carry(3) <= (i_A(3) AND carry(2));
-        
-        -- Carry out
-        o_carryOut <= carry(3);
-    END PROCESS;
-    
+    -- Soma bit 0
+    o_S(0) <= i_A(0) XOR i_carryIn;
+    carry(0) <= (i_A(0) AND i_carryIn);
+
+    -- Soma bit 1
+    o_S(1) <= i_A(1) XOR carry(0);
+    carry(1) <= (i_A(1) AND carry(0));
+
+    -- Soma bit 2
+    o_S(2) <= i_A(2) XOR carry(1);
+    carry(2) <= (i_A(2) AND carry(1));
+
+    -- Soma bit 3
+    o_S(3) <= i_A(3) XOR carry(2);
+    carry(3) <= (i_A(3) AND carry(2));
+
+    -- Carry out
+    o_carryOut <= carry(3);
+
 END arch_increm;

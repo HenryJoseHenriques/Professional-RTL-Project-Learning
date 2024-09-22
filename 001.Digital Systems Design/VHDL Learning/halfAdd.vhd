@@ -13,9 +13,6 @@ END halfAdd;
 
 ARCHITECTURE arch_halfAdd OF halfAdd IS
 BEGIN
-    PROCESS (i_A, i_B)
-    BEGIN
-        o_S <= (i_A XOR i_B);
-        o_TS <= (i_A AND i_B);
-    END PROCESS
+    o_S <= (i_A XOR i_B);
+    o_TS <= (i_A AND i_B);
 END arch_halfAdd;
