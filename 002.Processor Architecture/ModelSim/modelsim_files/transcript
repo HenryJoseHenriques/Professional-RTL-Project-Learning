@@ -1,0 +1,23 @@
+# Compile of fullAdd.vhd was successful.
+# Compile of testbench.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_fulladd
+# vsim -gui work.tb_fulladd 
+# Start time: 17:52:21 on Sep 20,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_fulladd(behavior)
+# Loading work.fulladd(arch_fulladd)
+add wave sim:/tb_fulladd/uut/*
+40 ns
+# invalid command name "40"
+run 40 ns
+40 ns
+# invalid command name "40"
+run 40 ns
+add wave sim:/tb_fulladd/uut/*
+run 40 ns
+# End time: 18:03:07 on Sep 20,2024, Elapsed time: 0:10:46
+# Errors: 0, Warnings: 6
